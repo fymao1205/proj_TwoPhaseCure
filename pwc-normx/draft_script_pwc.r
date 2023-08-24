@@ -48,7 +48,7 @@ plco_dt=data.frame(#id=1:nrow(sub_dat0),
   x=sub_dat0$Meta_PRS,#(sub_dat0$Meta_PRS-min(sub_dat0$Meta_PRS)), #ifelse(sub_dat0$qtyears==0, 1, 0), 
   v=sub_dat0$female)
 
-dt0=subset(plco_dt, pkyr0 ==0 )#& pkyr1==0 & qtyr2==0) #& qtyr0==1)#pkyr0==0 & qtyr2==0) #pkyr2==1 & qtyr0==1) #
+dt0=subset(plco_dt, pkyr0 ==0 )
 indices = rbinom(nrow(dt0), 1, 1)
 dt=dt0[indices==1,,drop=FALSE]
 dt$id=1:nrow(dt)
