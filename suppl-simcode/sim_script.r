@@ -86,7 +86,7 @@ est.para <- c(paste0("eta_", c(0, covZname)),
 group.mat <- expand.grid(1:3, 0:1)
 ref.group <- paste0(group.mat[,1], group.mat[,2]) # labels of the phase I strata: "10" "20" "30" "11" "21" "31"
 
-label.tx <- c("nsim", est.para, paste0("ASE.", est.para), paste0("p.", ref.group), paste0("g", ref.group))
+label.tx <- c("nsim", est.para, paste0("ASE.", est.para), paste0("p.", ref.group), paste0("n", ref.group))
 
 if ( file.exists( file1.out ) ) { unlink( file1.out ) }
 
