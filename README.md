@@ -19,7 +19,7 @@ This folder contains five *.r* files.
 
 ## sim_script.R
 
-This is a script for one simulation study. A for-loop is used for repeated simulations. In each simulation run, 3 steps are included: 1) data generation; 2) two-phase design implementation; and 3) estimation and inference. 
+This is a running script for an example simulation study. A for-loop is used for repeated simulations. In each simulation run, 3 steps are included: 1) data generation; 2) two-phase design implementation; and 3) estimation and inference. 
 
 ## sample_dt.phII.csv
 
