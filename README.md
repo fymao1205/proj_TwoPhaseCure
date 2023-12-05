@@ -8,7 +8,7 @@ This repository houses the R code used for simulation studies within the project
 
 This folder contains five *.r* files. 
 
-*design.r* and *design_withV.r*: contains utitlity functions for phase II designs including stratified designs and residual-dependent designs;
+*design.r* and *design_withV.r*: contains utitlity functions for phase II designs including stratified and residual-dependent sampling schemes;
 
 *em_coxph.r*: contains functions for esitmation via EM algorithm;
 
