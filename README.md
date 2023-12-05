@@ -8,13 +8,13 @@ This repository houses the R code used for simulation studies within the project
 
 This folder contains five *.r* files. 
 
-*design.r* and *design_withV.r*: contains functions for phase II designs
+*design.r* and *design_withV.r*: contains utitlity functions for phase II designs including stratified designs and residual-dependent designs;
 
-*em_coxph.r*: contains functions for esitmation via EM algorithm
+*em_coxph.r*: contains functions for esitmation via EM algorithm;
 
-*avar_louis.r*: contains functions for asymptotic variance computation for EM
+*avar_louis.r*: contains functions for asymptotic variance computation for EM;
 
-*opt_str_design_gau.r*: contains functions for optimal stratified designs, which are not feasible in practice 
+*opt_str_design_gau.r*: contains functions for optimal stratified designs, which are not feasible in practice but implementable in simulation studies. 
 
 
 ## sim_script.R
